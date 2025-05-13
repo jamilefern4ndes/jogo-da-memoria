@@ -29,7 +29,6 @@ function pegarDados() {
     .catch(error => console.log("Erro ao carregar JSON: ", error))
 }
 
-
 function gerarCartas(cartas){
     let carta = document.createElement("div")
     carta.setAttribute('class', 'card') 
@@ -43,7 +42,7 @@ function gerarCartas(cartas){
     carta.addEventListener('click', () => {
         carta.classList.toggle('virada')
             setTimeout(() => {
-            carta.style.background = `url(../imagens/${cartas.img})`
+            carta.style.background = `url(imagens/${cartas.img})`
             }, 550)
         if (carta1 === '') {
             carta1 = cartas.img
