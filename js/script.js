@@ -43,7 +43,7 @@ function gerarCartas(cartas){
     carta.addEventListener('click', () => {
         carta.classList.toggle('virada')
             setTimeout(() => {
-            carta.style.background = `url(../imagens/${cartas.img})`
+            carta.style.background = cartas.cor
             }, 550)
         if (carta1 === '') {
             carta1 = cartas.img
