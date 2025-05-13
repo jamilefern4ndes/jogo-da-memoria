@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=play_arrow" />
+    <link rel="shortcut icon" href="imagens/carta1.png" type="image/x-icon">
+    <title>Jogo da Memória</title>
+</head>
+<body>
+    <main>
+        <section class="game">
+            <h1>BEM VINDO AO JOGO</h1>
+            <button id="btnPlay" onclick="pegarDados()">
+                <span class="material-symbols-outlined">
+                play_arrow
+                </span>
+            </button>
+            
+        </section>
+        <div id="finalizado">
+            <div id="fechar" onclick="reload()">X</div>
+            <p >Você concluiu o jogo!</p>
+        </div>
+    </main>
+    <footer>
+        <p>criado por &copy; <a href="https://github.com/jamilefern4ndes" target="_blank">Jamile Fernandes</a></p>
+    </footer>
+    <script src="js/script.js"> </script>
+</body>
+</html>
