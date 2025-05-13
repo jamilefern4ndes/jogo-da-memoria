@@ -37,7 +37,7 @@ function gerarCartas(cartas){
 
     //manter cartas viradas quando acertadas
     if (acertos.includes(cartas.cor)) {
-        carta.style.background = `url(../imagens/${cartas.img})`
+        carta.style.background = `url(imagens/${cartas.img})`
     }
     //click
     carta.addEventListener('click', () => {
