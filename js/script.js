@@ -6,6 +6,7 @@ let acertos = []
 
 //pegar dados e criar as cartas
 const url = 'cards.json'
+
 function pegarDados() {
     fetch(url)
         .then(response => response.json())
@@ -30,7 +31,6 @@ function pegarDados() {
 
 
 function gerarCartas(cartas){
-
     let carta = document.createElement("div")
     carta.setAttribute('class', 'card') 
     sessaoJogo.appendChild(carta)
