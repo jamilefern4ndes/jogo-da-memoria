@@ -1,8 +1,0 @@
-@media screen and (max-width: 500px){
-    body{
-        background: url("../imagens/fundo-simpsons-2.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-}

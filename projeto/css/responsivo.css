@@ -1,0 +1,14 @@
+/* @media screen and (max-width: 600px){
+    body{
+        background: url('../imagens/fundo-simpsons-2.jpg');
+    }
+}
+@media screen and (min-width: 700px){
+    body{
+        background: url('../imagens/fundo-simpsons.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+ */

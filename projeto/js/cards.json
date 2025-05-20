@@ -1,0 +1,36 @@
+{
+  "cartas": [
+    {
+      "nome": "bart",
+      "img" : "bart.jpeg"
+    },
+    {
+      "nome": "lisa",
+      "img" : "lisa.jpeg"
+    },
+    {
+      "nome": "homer",
+      "img" : "homer.jpeg"
+    },
+    {
+      "nome": "marge",
+      "img" : "marge.jpeg"
+    },
+    {
+      "nome": "bart",
+      "img" : "bart.jpeg"
+    },
+    {
+      "nome": "lisa",
+      "img" : "lisa.jpeg"
+    },
+    {
+      "nome": "homer",
+      "img" : "homer.jpeg"
+    },
+    {
+      "nome": "marge",
+      "img" : "marge.jpeg"
+    }
+  ]
+}
